@@ -13,6 +13,9 @@ handlers:
 - url: /css
   static_dir: css
   application_readable: true
+- url: /css/carousel.css
+  static_dir: carousel
+  application_readable: true
 - url: /templates
   static_dir: templates
   application_readable: true
