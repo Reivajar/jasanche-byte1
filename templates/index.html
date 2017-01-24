@@ -59,6 +59,7 @@
                   <ul class="dropdown-menu">
                     <li><a href="#heatmap">Heatmap</a></li>
                     <li><a href="#weekmap">Weekmap</a></li>
+                    <li><a href="#16maps">16 years old drivers accidents</a></li>
                     <!---
                     <li role="separator" class="divider"></li>
                     <li class="dropdown-header">Nav header</li>
@@ -219,11 +220,24 @@
       <a name="youngdrivers"><div class="row featurette">
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading"><span class="text-muted">Young drivers got crashes in particular days over the week.</span></h2>
-          <p class="lead">Traffic accidents hide not only a spatial meaning considering where they happen over the time, but as weel, segmentation by age can tell lots of things about the lyfestyles of people and the risky ranges.</p>
+          <p class="lead">Traffic accidents hide not only a spatial meaning considering where they happen over the time, but as weel, segmentation by age can tell lots of things about the lyfestyles of people and the risky ranges. It seems that 16 years old drivers use mostly their car for going out on weekends, and not for going to the work or to the high school as older teenagers.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
           <!--<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">-->
           <iframe width="457" height="457" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;q=select+col7%2C+SUM(col45)%2C+SUM(col46)%2C+SUM(col47)%2C+SUM(col48)%2C+SUM(col49)+from+1fouUEPgTJvGoCI24zFQSwdkT8X_DmggAQAtD-nHN+group+by+col7+order+by+col7+asc+limit+7&amp;viz=GVIZ&amp;t=LINE&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_vAxes=%5B%7B%22title%22%3Anull%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D%5D&amp;gco_useFirstColumnAsDomain=true&amp;gco_legacyScatterChartLabels=true&amp;gco_curveType=function&amp;gco_booleanRole=certainty&amp;gco_lineWidth=2&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22viewWindow%22%3Anull%2C+%22viewWindowMode%22%3Anull%2C+%22title%22%3A%22Day+of+the+week%22%7D&amp;gco_legend=top&amp;gco_title=Young+drivers+involved+in+crashes+by+age+over+the+week&amp;gco_series=%7B%220%22%3A%7B%22color%22%3A%22%23e6b8af%22%2C+%22lineWidth%22%3A4%7D%2C+%221%22%3A%7B%22color%22%3A%22%23dd7e6b%22%2C+%22lineWidth%22%3A4%7D%2C+%222%22%3A%7B%22color%22%3A%22%23cc4125%22%2C+%22lineWidth%22%3A4%7D%2C+%223%22%3A%7B%22color%22%3A%22%23a61c00%22%2C+%22lineWidth%22%3A4%7D%2C+%224%22%3A%7B%22color%22%3A%22%235b0f00%22%2C+%22lineWidth%22%3A4%7D%7D&amp;gco_legendTextStyle=%7B%22color%22%3A%22%23222%22%2C+%22fontSize%22%3A%2210%22%7D&amp;gco_fontName=Verdana&amp;width=457&amp;height=457"></iframe>
+        </div>
+      </div></a>
+
+      <hr class="featurette-divider">
+      
+      
+      <a name="16map"><div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"><span class="text-muted">Where did the youngest drivers get crashed?</span></h2>
+          <p class="lead">By studying and analyzing the location of youngest drivers accidents we can detect that actually they are not in the more dangerous sections, where more accidents happen, but on other locations. It would be interesting to cross those locations with the locations of institutes.</p>
+        </div>
+        <div class="col-md-5">
+          <iframe width="457" height="457" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;q=select+col7%2C+count()+from+1fouUEPgTJvGoCI24zFQSwdkT8X_DmggAQAtD-nHN+group+by+col7+order+by+col7+asc+limit+7&amp;viz=GVIZ&amp;t=PIE&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_useFirstColumnAsDomain=true&amp;gco_legacyScatterChartLabels=true&amp;gco_is3D=false&amp;gco_pieHole=0&amp;gco_booleanRole=certainty&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D&amp;gco_vAxes=%5B%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D%5D&amp;gco_title=Percentage+of+crashes+by+day+of+the+week&amp;gco_legend=right&amp;width=457&amp;height=457"></iframe>
         </div>
       </div></a>
 
