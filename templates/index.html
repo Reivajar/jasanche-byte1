@@ -48,7 +48,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">2015 Transit crashes in Beaver Co.</a>
+              <a class="navbar-brand" href="#" name="top">2015 Transit crashes in Beaver Co.</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -59,7 +59,6 @@
                   <ul class="dropdown-menu">
                     <li><a href="#heatmap">Heatmap</a></li>
                     <li><a href="#weekmap">Weekmap</a></li>
-                    <li><a href="#">Something else here</a></li>
                     <!---
                     <li role="separator" class="divider"></li>
                     <li class="dropdown-header">Nav header</li>
@@ -71,9 +70,8 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Charts<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#weekmap">Weekmap</a></li>
+                    <li><a href="#chartweek">Crashes distribution over the week</a></li>
                     <li><a href="#youngdrivers">Young drivers over the week</a></li>
-                    <li><a href="#">Something else here</a></li>
                     <!---
                     <li role="separator" class="divider"></li>
                     <li class="dropdown-header">Nav header</li>
@@ -152,7 +150,8 @@
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
-      <div class="row" name="ref">
+      <a name="ref"></a>
+      <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="https://pbs.twimg.com/profile_images/559804899995578368/VBMWuOFf_400x400.png" alt="Generic placeholder image" width="140" height="140">      
           <h2>Source</h2>
@@ -204,15 +203,15 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+      <a name="chartweek"><div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading"><span class="text-muted">Explore the data as well through charts.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <p class="lead">The distribution of accidents is pretty uniform. Considering that the level of traffic over the weekends is lower, there is a higher level of accident over the weekends when comparing to the AADT data.</p>
         </div>
         <div class="col-md-5">
-          <iframe width="457" height="600" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;q=select+col7%2C+count()+from+1nmukDJ-ZfI5hcAV7fOKgehf2qMRKu5IxuwQD0fFO+group+by+col7+order+by+col7+asc+limit+7&amp;viz=GVIZ&amp;t=COLUMN&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_vAxes=%5B%7B%22title%22%3Anull%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22logScale%22%3Afalse%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22logScale%22%3Afalse%7D%5D&amp;gco_useFirstColumnAsDomain=true&amp;gco_legacyScatterChartLabels=true&amp;gco_isStacked=false&amp;gco_booleanRole=certainty&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22title%22%3A%22Day+of+the+week%22%2C+%22gridlines%22%3A%7B%22count%22%3A%227%22%7D%2C+%22formatOptions%22%3A%7B%22source%22%3A%22data%22%7D%2C+%22minorGridlines%22%3A%7B%22count%22%3A%221%22%7D%2C+%22textStyle%22%3A%7B%22color%22%3A%22none%22%2C+%22fontSize%22%3A12%7D%7D&amp;gco_legend=right&amp;gco_title=Crashes+per+day+of+the+week&amp;gco_domainAxis=%7B%22direction%22%3A1%7D&amp;gco_trendlines=%7B%7D&amp;width=457&amp;height=600"></iframe>
+          <iframe width="457" height="457" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;q=select+col7%2C+count()+from+1fouUEPgTJvGoCI24zFQSwdkT8X_DmggAQAtD-nHN+group+by+col7+order+by+col7+asc+limit+7&amp;viz=GVIZ&amp;t=PIE&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_useFirstColumnAsDomain=true&amp;gco_legacyScatterChartLabels=true&amp;gco_is3D=false&amp;gco_pieHole=0&amp;gco_booleanRole=certainty&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D&amp;gco_vAxes=%5B%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D%5D&amp;gco_title=Percentage+of+crashes+by+day+of+the+week&amp;gco_legend=right&amp;width=457&amp;height=457"></iframe>
         </div>
-      </div>
+      </div></a>
 
       <hr class="featurette-divider">
       
@@ -235,8 +234,8 @@
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p class="pull-right"><a href="#top">Back to top</a></p>
+        <p>Javier Argota for 05-839 class at CMU; 2017.</p>
       </footer>
 
     </div><!-- /.container -->
